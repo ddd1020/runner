@@ -2,11 +2,12 @@
 A Celery wrapped app that loads dicom-contour data and readies it for processing.
 
 ### Installing dependencies:
-
 - local RabbitMQ:
 `http://docs.celeryproject.org/en/latest/getting-started/brokers/rabbitmq.html#broker-rabbitmq`
 
 - `pip install requirements.txt`
+
+- HACK: unpack zip file into 'final_data' (normally we would pull data from AWS bucket, but for this demo we're just doing filesystem)
 
 - HACK: install this app into 'dist-packages'
 
